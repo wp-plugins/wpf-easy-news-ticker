@@ -29,27 +29,27 @@ Shortcodes
 Remember: Must put a Unique-ID in each shortcode, If you want to use 3 news ticker in one page then you can put in the first ticker id="1", second id="2" & 3rd id="3".
 If you are using one news ticker in one page then leave it.
 
-1. General News Ticker
+** General News Ticker
 
 <pre>[wpf_ticker id="1" text="Latest Updates"]</pre>
 
-2. Ticker form category
+** Ticker form category
 
 <pre>[wpf_ticker id="2" category="category name" text="Latest News"]</pre>
 
  
 
-3. Ticker form custom taxonomy
+** Ticker form custom taxonomy
 
 <pre>[wpf_ticker id="3" taxonomy="your-taxonomy-name" category="category name" text="Latest News"]</pre>
 
-4. Ticker Colors
+** Ticker Colors
 
 <pre>[wpf_ticker id="4" text="Latest News" color="#1874B4" bg_color="#eeeeee" link_color="#222222"]</pre>
 Note: you can HEX & color name in the color,bg_color,link_color attributes. Ex: #1874B4 or blue.
 
  
-More shortcode attributes are:
+** More shortcode attributes are:
 
 <pre>post_type="post-type" // Default is post</pre>
 Note: post type will be here. if you want to display cotents from post then leave it.
