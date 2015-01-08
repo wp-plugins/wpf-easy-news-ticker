@@ -95,7 +95,7 @@ e.g.
 
 == Frequently Asked Questions ==
 
-How can I place news ticker in my theme?
+How can I place news ticker in my theme?<br/>
 Answer: please read description tab.
 
 == Screenshots ==
