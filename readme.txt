@@ -24,6 +24,62 @@ Live Demo: http://wpfreeware.com/preview/wpf-easy-news-ticker
 6. custom taxonomy supported
 
 
+Shortcodes
+
+Remember: Must put a Unique-ID in each shortcode, If you want to use 3 news ticker in one page then you can put in the first ticker id="1", second id="2" & 3rd id="3".
+If you are using one news ticker in one page then leave it.
+
+1. General News Ticker
+
+<pre>[wpf_ticker id="1" text="Latest Updates"]</pre>
+
+2. Ticker form category
+
+<pre>[wpf_ticker id="2" category="category name" text="Latest News"]</pre>
+
+ 
+
+3. Ticker form custom taxonomy
+
+<pre>[wpf_ticker id="3" taxonomy="your-taxonomy-name" category="category name" text="Latest News"]</pre>
+
+4. Ticker Colors
+
+<pre>[wpf_ticker id="4" text="Latest News" color="#1874B4" bg_color="#eeeeee" link_color="#222222"]</pre>
+Note: you can HEX & color name in the color,bg_color,link_color attributes. Ex: #1874B4 or blue.
+
+ 
+More shortcode attributes are:
+
+<pre>post_type="post-type" // Default is post</pre>
+Note: post type will be here. if you want to display cotents from post then leave it.
+
+<pre>category="category name" // default is none.</pre>
+Note: Your category name will be here.
+
+<pre>taxonomy="taxonomy name"  // default is category-name</pre>
+Note: Your custom taxonomy name will be here, default is genaral post type category name.
+
+<pre>id="numeric unique id"</pre>
+Note: Put a numeric unique id for each news ticker for using multiple in one page,
+if you use one news ticker in one page then leave it.
+
+<pre>text="Lebel text" default is Latest News</pre>
+Note: News ticker level text. Default is Latest News
+
+<pre>count="posts-amount-to-display" // default is unlimited</pre>
+Note: Put a numeric value to display posts amount.
+
+<pre>color="color-code" default is #0099CC</pre>
+Note: put your color code. Ex: #cf0000 or Ex: red. Note if you put color codes in any shortcode then the color will 
+be apply on all the news ticker you are using.
+
+<pre>bg_color="background-color-code" // default is #eeeeee</pre>
+Note: change background Color,default is #eeeeee;
+
+<pre>link_color="Link-color-code" // default is #222222</pre>
+Note : change link color,default is #222222;
+
 
 == Installation ==
 
